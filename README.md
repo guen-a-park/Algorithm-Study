@@ -2,15 +2,15 @@
 
 #### Source : [BaekJoon](https://www.acmicpc.net/), [plzrun's algorithm](https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
-### 목차📜
+## 목차📜
 
 - [입출력 (I/0)](#입출력 (I/0))
 
-- [동적 프로그래밍](#동적 프로그래밍)
+- [동적프로그래밍](#동적프로그래밍)
 
-- [다양한 알고리즘](#다양한 알고리즘)
+- [다양한알고리즘](#다양한알고리즘)
 
-- [그래프 문제(bfs, dfs)](#그래프 문제(bfs, dfs))
+- [그래프문제(bfs, dfs)](#그래프문제(bfs, dfs))
 
 - [이분/삼분탐색](#이분/삼분탐색)
 
