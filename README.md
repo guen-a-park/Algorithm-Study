@@ -1,56 +1,227 @@
 # Algorithm-Study🎯
 
-#### BaekJoon https://www.acmicpc.net/
+#### Source : [BaekJoon](https://www.acmicpc.net/), [plzrun's algorithm](https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
 
-## 입출력(I/0)
+### 목차📜
 
-***❗️❗️꼭 문제를 순서대로 안풀어도 됩니다.❗️❗️***
+- [입출력 (I/0)](#입출력 (I/0))
 
-[백준 문제집](https://www.acmicpc.net/workbook/view/6779)
-|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |        풀이 링크         |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1158" target="_blank">1158</a> | <a href="https://www.acmicpc.net/problem/1158" target="_blank">요세푸스 문제</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./../solution/data_structure/1158">바로가기</a> |
-| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10828" target="_blank">10828</a> | <a href="https://www.acmicpc.net/problem/10828" target="_blank">스택</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/10828">바로가기</a> |
-| 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9012" target="_blank">9012</a> | <a href="https://www.acmicpc.net/problem/9012" target="_blank">괄호</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/9012">바로가기</a> |
-| 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/18258" target="_blank">18258</a> | <a href="https://www.acmicpc.net/problem/18258" target="_blank">큐 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/18258">바로가기</a> |
-| 04 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2164" target="_blank">2164</a> | <a href="https://www.acmicpc.net/problem/2164" target="_blank">카드2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/2164">바로가기</a> |
-| 05 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10866" target="_blank">10866</a> | <a href="https://www.acmicpc.net/problem/10866" target="_blank">덱</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/10866">바로가기</a> |
-| 06 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1874" target="_blank">1874</a> | <a href="https://www.acmicpc.net/problem/1874" target="_blank">스택 수열</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/1874">바로가기</a> |
-| 07 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1935" target="_blank">1935</a> | <a href="https://www.acmicpc.net/problem/1935" target="_blank">후위 표기식2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/1935">바로가기</a> |
-| 08 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10799" target="_blank">10799</a> | <a href="https://www.acmicpc.net/problem/10799" target="_blank">쇠막대기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/10799">바로가기</a> |
-| 09 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1966" target="_blank">1966</a> | <a href="https://www.acmicpc.net/problem/1966" target="_blank">프린터 큐</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/1966">바로가기</a> |
-| 10 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2346" target="_blank">2346</a> | <a href="https://www.acmicpc.net/problem/2346" target="_blank">풍선 터뜨리기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/2346">바로가기</a> |
-| 11 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2504" target="_blank">2504</a> | <a href="https://www.acmicpc.net/problem/2504" target="_blank">괄호의 값</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |                      |
-| 12 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2800" target="_blank">2800</a> | <a href="https://www.acmicpc.net/problem/2800" target="_blank">괄호 제거</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | <a href="./../solution/data_structure/2800">바로가기</a> |
-| 13 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2493" target="_blank">2493</a> | <a href="https://www.acmicpc.net/problem/2493" target="_blank">탑</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | <a href="./../solution/data_structure/2493">바로가기</a> |
-| 14 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/22942" target="_blank">22942</a> | <a href="https://www.acmicpc.net/problem/22942" target="_blank">데이터 체커</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | <a href="./../solution/data_structure/22942">바로가기</a> |
-| 15 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1918" target="_blank">1918</a> | <a href="https://www.acmicpc.net/problem/1918" target="_blank">후위 표기식</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | <a href="./../solution/data_structure/1918">바로가기</a> |
-| 16 |                      | <a href="https://www.acmicpc.net/problem/10845" target="_blank">10845</a> | <a href="https://www.acmicpc.net/problem/10845" target="_blank">큐</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/10845">바로가기</a> |
-| 17 |                      | <a href="https://www.acmicpc.net/problem/4949" target="_blank">4949</a> | <a href="https://www.acmicpc.net/problem/4949" target="_blank">균형잡힌 세상</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |                      |
-| 18 |                      | <a href="https://www.acmicpc.net/problem/3986" target="_blank">3986</a> | <a href="https://www.acmicpc.net/problem/3986" target="_blank">좋은 단어</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/3986">바로가기</a> |
-| 19 |                      | <a href="https://www.acmicpc.net/problem/1021" target="_blank">1021</a> | <a href="https://www.acmicpc.net/problem/1021" target="_blank">회전하는 큐</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/data_structure/1021">바로가기</a> |
-| 20 |                      | <a href="https://www.acmicpc.net/problem/5397" target="_blank">5397</a> | <a href="https://www.acmicpc.net/problem/5397" target="_blank">키로거</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/data_structure/5397">바로가기</a> |
-| 21 |                      | <a href="https://www.acmicpc.net/problem/18115" target="_blank">18115</a> | <a href="https://www.acmicpc.net/problem/18115" target="_blank">카드 놓기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |                      |
-| 22 |                      | <a href="https://www.acmicpc.net/problem/5430" target="_blank">5430</a> | <a href="https://www.acmicpc.net/problem/5430" target="_blank">AC</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
-| 23 |                      | <a href="https://www.acmicpc.net/problem/1863" target="_blank">1863</a> | <a href="https://www.acmicpc.net/problem/1863" target="_blank">스카이라인 쉬운거</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
-| 24 |                      | <a href="https://www.acmicpc.net/problem/22866" target="_blank">22866</a> | <a href="https://www.acmicpc.net/problem/22866" target="_blank">탑 보기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
+- [동적 프로그래밍](#동적 프로그래밍)
+
+- [다양한 알고리즘](#다양한 알고리즘)
+
+- [그래프 문제(bfs, dfs)](#그래프 문제(bfs, dfs))
+
+- [이분/삼분탐색](#이분/삼분탐색)
+
+- [분할정복](#분할정복)
+
+  
+
+## 입출력 (I/0)
+
+|          순번          |        문제 번호         |        문제 이름         |        풀이 링크        |
+| :-----: | :-----: | :-----: | :-----: |
+| 00 | 2557 |           | [✔️](www.naver.com) |
+| 01 |   1000    |  | ✔️ |
+|  02  |   2558    |           |                    |
+|  03  |   10950   |           |                    |
+|  04  |   10951   |           |                    |
+|  05  |   10953   |           |                    |
+|  06  |   11021   |           |                    |
+|  07  |   11022   |           |                    |
+|  08  |   11718   |           |                    |
+|  09  |   11719   |           |                    |
+|  10  |   11720   |           |                    |
+|  11  |   11721   |           |                    |
+|  12  |   2741    |           |                    |
+|  13  |   2742    |           |                    |
+|  14  |   2739    |           |                    |
+|  15  |   1924    |           |                    |
+|  16  |   8393    |           |                    |
+|  17  |   10818   |           |                    |
+|  18  |   2438    |           |                    |
+|  19  |   2439    |           |                    |
+|  20  |   2440    |           |                    |
+|  21  |   2441    |           |                    |
+|  22  |   2442    |           |                    |
+|  23  |   2445    |           |                    |
+|  24  |   2522    |           |                      |
+|  25  |   2446    |           | |
+|  26  |   10991   |           | |
+|  27  |   10992   |           | |
 
 
-## Dynamic programming
+
+## 동적 프로그래밍
+
+| 순번 | 문제 번호 | 문제 이름 |     풀이 링크      |
+| :--: | :-------: | :-------: | :----------------: |
+|  00  |   1463    |           | [✔️](www.naver.com) |
+|  01  |   11726   |           |         ✔️          |
+|  02  |   11727   |           |                    |
+|  03  |   9095    |           |                    |
+|  04  |   10844   |           |                    |
+|  05  |   11057   |           |                    |
+|  06  |   2193    |           |                    |
+|  07  |   9465    |           |                    |
+|  08  |   2156    |           |                    |
+|  09  |   11053   |           |                    |
+|  10  |   11055   |           |                    |
+|  11  |   11722   |           |                    |
+|  12  |   11054   |           |                    |
+|  13  |   1912    |           |                    |
+|  14  |   2579    |           |                    |
+|  15  |   1699    |           |                    |
+|  16  |   2133    |           |                    |
+|  17  |   9461    |           |                    |
+|  18  |   2225    |           |                    |
+|  19  |   2011    |           |                    |
+|  20  |   11052   |           |                    |
+
+
 
 ## 다양한 알고리즘
 
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |   2751   |           | [✔️](www.naver.com) |
+|  01  |  11650   |           |         ✔️          |
+|  02  |  11651   |           |                    |
+|  03  |  10814   |           |                    |
+|  04  |  10825   |           |                    |
+|  05  |  10989   |           |                    |
+|  06  |  11652   |           |                    |
+|  07  |  11004   |           |                    |
+|  08  |  10828   |           |                    |
+|  09  |   9012   |           |                    |
+|  10  |  10799   |           |                    |
+|  11  |  10845   |           |                    |
+|  12  |  10866   |           |                    |
+|  13  |  10808   |           |                    |
+|  14  |  10809   |           |                    |
+|  15  |  10820   |           |                    |
+|  16  |   2743   |           |                    |
+|  17  |  11655   |           |                    |
+|  18  |  10824   |           |                    |
+|  19  |  11656   |           |                    |
+|  20  |   1406   |           |                    |
+|  21  |   1158   |           |                    |
+|  22  |   1168   |           |                    |
+|  23  |  10430   |           |                    |
+|  24  |   2609   |           |                    |
+|  25  |   1934   |           |                    |
+|  26  |   1850   |           |                    |
+|  27  |   9613   |           |                    |
+|  28  |  11005   |           |                    |
+|  29  |   2745   |           |                    |
+|  30  |   1373   |           |                    |
+|  31  |   1212   |           |                    |
+|  32  |   2089   |           |                    |
+|  33  |  11576   |           |                    |
+|  34  |   1978   |           |                    |
+|  35  |   1929   |           |                    |
+|  36  |   6588   |           |                    |
+|  37  |  11653   |           |                    |
+|  38  |  10872   |           |                    |
+|  39  |   1676   |           |                    |
+|  40  |   2004   |           |                    |
+
+
+
 ## 그래프 문제(bfs, dfs)
 
-## binary search
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |   1260   |           | [✔️](www.naver.com) |
+|  01  |  11724   |           |         ✔️          |
+|  02  |   1707   |           |                    |
+|  03  |  10451   |           |                    |
+|  04  |   2331   |           |                    |
+|  05  |   9466   |           |                    |
+|  06  |   2667   |           |                    |
+|  07  |   4963   |           |                    |
+|  08  |   7576   |           |                    |
+|  09  |   2178   |           |                    |
+|  10  |   2146   |           |                    |
+|  11  |   1991   |           |                    |
+|  12  |  11725   |           |                    |
+|  13  |   1167   |           |                    |
+|  14  |   1967   |           |                    |
+
+
+
+## 이분/삼분탐색
+
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |   654    |           | [✔️](www.naver.com) |
+|  01  |   2805   |           |         ✔️          |
+|  02  |   2110   |           |                    |
+|  03  |  10815   |           |                    |
+|  04  |  10816   |           |                    |
+|  05  |  11662   |           |                    |
+
+
 
 ## 분할정복
 
-## Greedy algorithm
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |  11728   |           | [✔️](www.naver.com) |
+|  01  |   1780   |           |         ✔️          |
+|  02  |  11729   |           |                    |
+|  03  |   1992   |           |                    |
+|  04  |   2447   |           |                    |
+|  05  |   2448   |           |                    |
+|  06  |   1517   |           |                    |
+|  07  |   2261   |           |                    |
 
-## 완전탐색(exhaustive search)
+
+
+## 그리디 알고리즘
+
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |  11047   |           | [✔️](www.naver.com) |
+|  01  |   2875   |           |         ✔️          |
+|  02  |  10610   |           |                    |
+|  03  |   1783   |           |                    |
+|  04  |   1931   |           |                    |
+|  05  |  11399   |           |                    |
+|  06  |   2873   |           |                    |
+|  07  |   1744   |           |                    |
 
 
 
-Source
-https://plzrun.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4PS-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0
+## 완전탐색
+
+| 순번 | 문제번호 | 문제 이름 |     풀이 링크      |
+| :--: | :------: | :-------: | :----------------: |
+|  00  |   1476   |           | [✔️](www.naver.com) |
+|  01  |   1107   |           |         ✔️          |
+|  02  |   1451   |           |                    |
+|  03  |   9095   |           |                    |
+|  04  |  10819   |           |                    |
+|  05  |  10971   |           |                    |
+|  06  |   1697   |           |                    |
+|  07  |   1963   |           |                    |
+|  08  |   9019   |           |                    |
+|  09  |   1525   |           |                    |
+|  10  |   2251   |           |                    |
+|  11  |   2186   |           |                    |
+|  12  |   3108   |           |                    |
+|  13  |   5014   |           |                    |
+|  14  |   1759   |           |                    |
+|  15  |   2580   |           |                    |
+|  16  |   1987   |           |                    |
+|  17  |   6603   |           |                    |
+|  18  |   1182   |           |                    |
+|  19  |   2003   |           |                    |
+|  20  |   1806   |           |                    |
+|  21  |   1644   |           |                    |
+|  22  |   1261   |           |                    |
+|  23  |   1208   |           |                    |
+|  24  |   7453   |           |                    |
+|  25  |   2632   |           |                    |
+|  26  |   2143   |           |                    |
