@@ -53,8 +53,8 @@
 
 | 순번 | 문제 번호 |                       문제 이름                       | 풀이 링크 | 다시 볼 문제 |
 | :--: | :-------: | :---------------------------------------------------: | :-------: | :----------: |
-|  00  |   1463    |  [1로 만들기](https://www.acmicpc.net/problem/1463)   |   [⭕]()   |      ✔       |
-|  01  |   11726   |  [2×n 타일링](https://www.acmicpc.net/problem/11726)  |     ⭕     |              |
+|  00  |   1463    |  [1로 만들기](https://www.acmicpc.net/problem/1463)   |   [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1463.cpp)   |      ✔       |
+|  01  |   11726   |  [2×n 타일링](https://www.acmicpc.net/problem/11726)  |     [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11726.cpp)     |              |
 |  02  |   11727   | [2×n 타일링 2](https://www.acmicpc.net/problem/11727) |           |              |
 |  03  |   9095    |                                                       |           |              |
 |  04  |   10844   |                                                       |           |              |
