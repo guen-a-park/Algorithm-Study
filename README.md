@@ -19,10 +19,10 @@
 
 |          순번          |        문제 번호         |        문제 이름         |        풀이 링크        |
 | :-----: | :-----: | :-----: | :-----: |
-| 00 | 2557 | [Hello World](https://www.acmicpc.net/problem/2557) | [✔️](www.naver.com) |
-| 01 |   1000    | [A+B](https://www.acmicpc.net/problem/1000) | ✔️ |
-|  02  |   2558    | [A+B - 2](https://www.acmicpc.net/problem/2558) | ✔️ |
-|  03  |   10950   | [A+B - 3](https://www.acmicpc.net/problem/10950) | ✔️ |
+| 00 |  2557   |  [Hello World](https://www.acmicpc.net/problem/2557)   |  [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2557.cc)  |
+| 01 |   1000    | [A+B](https://www.acmicpc.net/problem/1000) | [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1000.cc) |
+|  02  |   2558    | [A+B - 2](https://www.acmicpc.net/problem/2558) | [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2558.cpp) |
+|  03  |   10950   | [A+B - 3](https://www.acmicpc.net/problem/10950) |[✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/10950.cc) |
 |  04  |   10951   |           |  |
 |  05  |   10953   |           |                    |
 |  06  |   11021   |           |                    |
