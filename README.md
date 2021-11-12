@@ -18,7 +18,7 @@
 ## 입출력 (I/0)
 
 |          순번          |        문제 번호         |        문제 이름         |        풀이 링크        |
-| :-----: | :-----: | :-----: | :-----: |
+| :-----: | :------------------: | :------------------: | :------------------: |
 | 00 |  2557   |  [Hello World](https://www.acmicpc.net/problem/2557)   |  [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2557.cc)  |
 | 01 |   1000    | [A+B](https://www.acmicpc.net/problem/1000) | [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1000.cc) |
 |  02  |   2558    | [A+B - 2](https://www.acmicpc.net/problem/2558) | [✔️](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2558.cpp) |
