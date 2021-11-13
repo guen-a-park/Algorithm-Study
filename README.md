@@ -22,30 +22,24 @@
 | 01 |   1000    | [A+B](https://www.acmicpc.net/problem/1000) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1000.cc) |  |
 |  02  |   2558    | [A+B - 2](https://www.acmicpc.net/problem/2558) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2558.cpp) |  |
 |  03  |   10950   | [A+B - 3](https://www.acmicpc.net/problem/10950) |[⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/10950.cc) | |
-|  04  |   10951   |           |  |  |
-|  05  |   10953   |           |                    |                    |
-|  06  |   11021   |           |                    |                    |
-|  07  |   11022   |           |                    |                    |
-|  08  |   11718   |           |                    |                    |
-|  09  |   11719   |           |                    |                    |
-|  10  |   11720   |           |                    |                    |
-|  11  |   11721   |           |                    |                    |
-|  12  |   2741    |           |                    |                    |
-|  13  |   2742    |           |                    |                    |
-|  14  |   2739    |           |                    |                    |
-|  15  |   1924    |           |                    |                    |
-|  16  |   8393    |           |                    |                    |
-|  17  |   10818   |           |                    |                    |
-|  18  |   2438    |           |                    |                    |
-|  19  |   2439    |           |                    |                    |
-|  20  |   2440    |           |                    |                    |
-|  21  |   2441    |           |                    |                    |
-|  22  |   2442    |           |                    |                    |
-|  23  |   2445    |           |                    |                    |
-|  24  |   2522    |           |                      |                      |
-|  25  |   2446    |           | | |
-|  26  |   10991   |           | | |
-|  27  |   10992   |           | | |
+|  04  |   11718   | [그대로 출력하기](https://www.acmicpc.net/problem/11718) |                    |                    |
+|  05  |   11720   | [숫자의 합](https://www.acmicpc.net/problem/11720) |                    |                    |
+|  06  |   11721   | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) |                    |                    |
+|  07  |   2741    | [N 찍기](https://www.acmicpc.net/problem/2741) |                    |                    |
+|  08  |   2739    | [구구단](https://www.acmicpc.net/problem/2739) |                    |                    |
+|  09  |   1924    |           |                    |                    |
+|  10  |   8393    |           |                    |                    |
+|  11  |   10818   |           |                    |                    |
+|  12  |   2438    |           |                    |                    |
+|  13  |   2439    |           |                    |                    |
+|  14  |   2440    |           |                    |                    |
+|  15  |   2441    |           |                    |                    |
+|  16  |   2442    |           |                    |                    |
+|  17  |   2445    |           |                    |                    |
+|  18  |   2522    |           |                      |                      |
+|  19  |   2446    |           | | |
+|  20  |   10991   |           | | |
+|  21  |   10992   |           | | |
 
 
 
