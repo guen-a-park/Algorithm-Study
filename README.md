@@ -22,11 +22,11 @@
 | 01 |   1000    | [A+B](https://www.acmicpc.net/problem/1000) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1000.cc) |  |
 |  02  |   2558    | [A+B - 2](https://www.acmicpc.net/problem/2558) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2558.cpp) |  |
 |  03  |   10950   | [A+B - 3](https://www.acmicpc.net/problem/10950) |[⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/10950.cc) | |
-|  04  |   11718   | [그대로 출력하기](https://www.acmicpc.net/problem/11718) |                    |                    |
-|  05  |   11720   | [숫자의 합](https://www.acmicpc.net/problem/11720) |                    |                    |
-|  06  |   11721   | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) |                    |                    |
-|  07  |   2741    | [N 찍기](https://www.acmicpc.net/problem/2741) |                    |                    |
-|  08  |   2739    | [구구단](https://www.acmicpc.net/problem/2739) |                    |                    |
+|  04  |   11718   | [그대로 출력하기](https://www.acmicpc.net/problem/11718) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11718.cc) |                    |
+|  05  |   11720   | [숫자의 합](https://www.acmicpc.net/problem/11720) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11720.cpp) |                    |
+|  06  |   11721   | [열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11721.cc) |                    |
+|  07  |   2741    | [N 찍기](https://www.acmicpc.net/problem/2741) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2741.cc) |                    |
+|  08  |   2739    | [구구단](https://www.acmicpc.net/problem/2739) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2739.cc) |                    |
 |  09  |   1924    |           |                    |                    |
 |  10  |   8393    |           |                    |                    |
 |  11  |   10818   |           |                    |                    |
@@ -45,77 +45,77 @@
 
 ## 동적프로그래밍
 
-| 순번 | 문제 번호 |                       문제 이름                       | 풀이 링크 | 다시 볼 문제 |
-| :--: | :-------: | :---------------------------------------------------: | :-------: | :----------: |
-|  00  |   1463    |  [1로 만들기](https://www.acmicpc.net/problem/1463)   |   [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1463.cpp)   |      ✔       |
-|  01  |   11726   |  [2×n 타일링](https://www.acmicpc.net/problem/11726)  |     [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11726.cpp)     |              |
-|  02  |   11727   | [2×n 타일링 2](https://www.acmicpc.net/problem/11727) |           |              |
-|  03  |   9095    |                                                       |           |              |
-|  04  |   10844   |                                                       |           |              |
-|  05  |   11057   |                                                       |           |              |
-|  06  |   2193    |                                                       |           |              |
-|  07  |   9465    |                                                       |           |              |
-|  08  |   2156    |                                                       |           |              |
-|  09  |   11053   |                                                       |           |              |
-|  10  |   11055   |                                                       |           |              |
-|  11  |   11722   |                                                       |           |              |
-|  12  |   11054   |                                                       |           |              |
-|  13  |   1912    |                                                       |           |              |
-|  14  |   2579    |                                                       |           |              |
-|  15  |   1699    |                                                       |           |              |
-|  16  |   2133    |                                                       |           |              |
-|  17  |   9461    |                                                       |           |              |
-|  18  |   2225    |                                                       |           |              |
-|  19  |   2011    |                                                       |           |              |
-|  20  |   11052   |                                                       |           |              |
+| 순번 | 문제 번호 |                       문제 이름                        |                          풀이 링크                           | 다시 볼 문제 |
+| :--: | :-------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------: |
+|  00  |   1463    |   [1로 만들기](https://www.acmicpc.net/problem/1463)   | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/1463.cpp) |      ✔       |
+|  01  |   11726   |  [2×n 타일링](https://www.acmicpc.net/problem/11726)   | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11726.cpp) |              |
+|  02  |   11727   | [2×n 타일링 2](https://www.acmicpc.net/problem/11727)  | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11727.cc) |              |
+|  03  |   9095    | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/9095.cc) |      ✔       |
+|  04  |   10844   | [쉬운 계단 수](https://www.acmicpc.net/problem/10844)  | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/10844.cc) |      ✔       |
+|  05  |   11057   |   [오르막 수](https://www.acmicpc.net/problem/11057)   | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11057.cc) |              |
+|  06  |   2193    |     [이친수](https://www.acmicpc.net/problem/2193)     | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2193.cc) |      ✔       |
+|  07  |   9465    |                                                        |                                                              |              |
+|  08  |   2156    |                                                        |                                                              |              |
+|  09  |   11053   |                                                        |                                                              |              |
+|  10  |   11055   |                                                        |                                                              |              |
+|  11  |   11722   |                                                        |                                                              |              |
+|  12  |   11054   |                                                        |                                                              |              |
+|  13  |   1912    |                                                        |                                                              |              |
+|  14  |   2579    |                                                        |                                                              |              |
+|  15  |   1699    |                                                        |                                                              |              |
+|  16  |   2133    |                                                        |                                                              |              |
+|  17  |   9461    |                                                        |                                                              |              |
+|  18  |   2225    |                                                        |                                                              |              |
+|  19  |   2011    |                                                        |                                                              |              |
+|  20  |   11052   |                                                        |                                                              |              |
 
 
 
 ## 다양한알고리즘
 
-| 순번 | 문제번호 | 문제 이름 | 풀이 링크 | 다시 볼 문제 |
-| :--: | :------: | :-------: | :-------: | :----------: |
-|  00  |   2751   |           |           |              |
-|  01  |  11650   |           |           |              |
-|  02  |  11651   |           |           |              |
-|  03  |  10814   |           |           |              |
-|  04  |  10825   |           |           |              |
-|  05  |  10989   |           |           |              |
-|  06  |  11652   |           |           |              |
-|  07  |  11004   |           |           |              |
-|  08  |  10828   |           |           |              |
-|  09  |   9012   |           |           |              |
-|  10  |  10799   |           |           |              |
-|  11  |  10845   |           |           |              |
-|  12  |  10866   |           |           |              |
-|  13  |  10808   |           |           |              |
-|  14  |  10809   |           |           |              |
-|  15  |  10820   |           |           |              |
-|  16  |   2743   |           |           |              |
-|  17  |  11655   |           |           |              |
-|  18  |  10824   |           |           |              |
-|  19  |  11656   |           |           |              |
-|  20  |   1406   |           |           |              |
-|  21  |   1158   |           |           |              |
-|  22  |   1168   |           |           |              |
-|  23  |  10430   |           |           |              |
-|  24  |   2609   |           |           |              |
-|  25  |   1934   |           |           |              |
-|  26  |   1850   |           |           |              |
-|  27  |   9613   |           |           |              |
-|  28  |  11005   |           |           |              |
-|  29  |   2745   |           |           |              |
-|  30  |   1373   |           |           |              |
-|  31  |   1212   |           |           |              |
-|  32  |   2089   |           |           |              |
-|  33  |  11576   |           |           |              |
-|  34  |   1978   |           |           |              |
-|  35  |   1929   |           |           |              |
-|  36  |   6588   |           |           |              |
-|  37  |  11653   |           |           |              |
-|  38  |  10872   |           |           |              |
-|  39  |   1676   |           |           |              |
-|  40  |   2004   |           |           |              |
+| 순번 | 문제번호 |                       문제 이름                        |                          풀이 링크                           | 다시 볼 문제 |
+| :--: | :------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------: |
+|  00  |   2751   | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)  | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/2751.cc) |              |
+|  01  |  11650   | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) | [⭕](https://github.com/guen-a-park/Algorithm-Study/blob/main/BeakJ/11650.cc) |              |
+|  02  |  11651   |                                                        |                                                              |              |
+|  03  |  10814   |                                                        |                                                              |              |
+|  04  |  10825   |                                                        |                                                              |              |
+|  05  |  10989   |                                                        |                                                              |              |
+|  06  |  11652   |                                                        |                                                              |              |
+|  07  |  11004   |                                                        |                                                              |              |
+|  08  |  10828   |                                                        |                                                              |              |
+|  09  |   9012   |                                                        |                                                              |              |
+|  10  |  10799   |                                                        |                                                              |              |
+|  11  |  10845   |                                                        |                                                              |              |
+|  12  |  10866   |                                                        |                                                              |              |
+|  13  |  10808   |                                                        |                                                              |              |
+|  14  |  10809   |                                                        |                                                              |              |
+|  15  |  10820   |                                                        |                                                              |              |
+|  16  |   2743   |                                                        |                                                              |              |
+|  17  |  11655   |                                                        |                                                              |              |
+|  18  |  10824   |                                                        |                                                              |              |
+|  19  |  11656   |                                                        |                                                              |              |
+|  20  |   1406   |                                                        |                                                              |              |
+|  21  |   1158   |                                                        |                                                              |              |
+|  22  |   1168   |                                                        |                                                              |              |
+|  23  |  10430   |                                                        |                                                              |              |
+|  24  |   2609   |                                                        |                                                              |              |
+|  25  |   1934   |                                                        |                                                              |              |
+|  26  |   1850   |                                                        |                                                              |              |
+|  27  |   9613   |                                                        |                                                              |              |
+|  28  |  11005   |                                                        |                                                              |              |
+|  29  |   2745   |                                                        |                                                              |              |
+|  30  |   1373   |                                                        |                                                              |              |
+|  31  |   1212   |                                                        |                                                              |              |
+|  32  |   2089   |                                                        |                                                              |              |
+|  33  |  11576   |                                                        |                                                              |              |
+|  34  |   1978   |                                                        |                                                              |              |
+|  35  |   1929   |                                                        |                                                              |              |
+|  36  |   6588   |                                                        |                                                              |              |
+|  37  |  11653   |                                                        |                                                              |              |
+|  38  |  10872   |                                                        |                                                              |              |
+|  39  |   1676   |                                                        |                                                              |              |
+|  40  |   2004   |                                                        |                                                              |              |
 
 
 
